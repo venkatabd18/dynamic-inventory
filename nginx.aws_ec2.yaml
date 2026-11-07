@@ -10,5 +10,6 @@ filters:
   tag:Name: nginx
 keyed_groups:
   - key: tags.Name
+    separator: ''
 
 
