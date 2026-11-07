@@ -1,0 +1,12 @@
+- name: install nginx
+  hosts: local
+  connection: local
+  become: yes
+  vars:
+    ansible_user: "{{ ansible_user }}"
+    ansible_password: "{{ ansible_password }}"
+  tasks: 
+  - name: install nginx
+    package:
+      name: name
+      state: started
