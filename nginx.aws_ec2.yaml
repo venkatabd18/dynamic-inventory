@@ -10,6 +10,6 @@ filters:
 hostnames:
 - private-ip-address
 
-# keyed_groups:
-#   - key: tags.Name
-#     separator: ''
+keyed_groups:
+  - key: tags.Name
+    #separator: ''
