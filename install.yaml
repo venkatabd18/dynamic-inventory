@@ -9,5 +9,5 @@
       state: present
       executable: pip3.9
     loop:
-    - boto3
-    - botocore
+      - boto3
+      - botocore
