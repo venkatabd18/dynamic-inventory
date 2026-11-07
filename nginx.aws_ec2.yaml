@@ -8,5 +8,7 @@ compose:
 filters:
   instance-state-name : running
   tag:Name: nginx
+keyed_groups:
+  - key: tag.Name
 
 
